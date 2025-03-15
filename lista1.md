@@ -30,6 +30,10 @@ c) A saída será undefined seguido de undefined
 
 d) A saída será erro em ambas as linhas que utilizam console.log
 
+alternativa correta (A)
+
+explicacao 
+- A variável x existe porque foi declarada com var mas ainda não tem um valor na hora que voce tenta imprimir e á y foi declarada com let e esse tipo de variável não pode ser acessado antes da sua definicao
 
 **2) O seguinte código JavaScript tem um erro que impede sua execução correta. Analise e indique a opção que melhor corrige o problema. Justifique sua resposta.**
 
@@ -50,6 +54,11 @@ b) Substituir if (a || b === 0) por if (a === 0 && b === 0)
 c) Substituir if (a || b === 0) por if (a && b === 0)
 
 d) Remover completamente a verificação if (a || b === 0)
+
+alternativa (A)
+
+explicacao
+- A expressão original não verifica corretamente se a ou b são 0
 
 ______
 **3) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
@@ -84,6 +93,11 @@ c) O código imprime 50.
 
 d) O código gera um erro.
 
+alternativa (B)
+
+explicacao
+- O switch não tem break após o primeiro caso, então continua executando o próximo sobrescrevendo o valor para 200
+
 ______
 **4) Ao executar esse código, qual será a saída no console? Indique a alternativa correta e justifique sua resposta.**
 ```javascript
@@ -100,6 +114,14 @@ b) 6
 c) 18
 
 d) 24
+
+alternativa (d)
+
+Multiplica os números por 2- 2,4,6,8,10
+
+Filtra os números maiores que 5-  6,8,10
+
+Soma tudo: 6 + 8 + 10 = 24
 ______
 **5) Qual será o conteúdo do array lista após a execução do código? Indique a alternativa correta e justifique sua resposta.**
 
@@ -116,6 +138,11 @@ b) ["banana", "abacaxi", "manga"]
 c) ["banana", "abacaxi", "manga", "laranja"]
 
 d) ["banana", "maçã", "uva", "abacaxi", "manga"]
+
+alternativa (c)
+
+explicacao
+O splice remove dois elementos e insere dois novos no lugar mudando a lista.
 ______
 **6) Abaixo há duas afirmações sobre herança em JavaScript. Indique a alternativa correta e justifique sua resposta**
 
@@ -130,6 +157,10 @@ b) As duas afirmações são verdadeiras, mas a segunda não justifica a primeir
 c) A primeira afirmação é verdadeira, e a segunda é falsa.
 
 d) A primeira afirmação é falsa, e a segunda é verdadeira.
+
+alternativa (a)
+
+Herança é usada para compartilhar código entre classes e o extends permite que isso aconteça em JavaScript.
 ______
 **7) Dado o seguinte código. Indique a alternativa correta e justifique sua resposta.**
 
@@ -173,6 +204,10 @@ c) Apenas II é verdadeira.
 
 d) Apenas I é verdadeira.
 
+alternativa (a)
+
+A classe Funcionario herda da classe Pessoa e sobrescreve o método apresentar() usando super para chamar o método da classe pai
+
 ______
 
 **8) Analise as afirmações a seguir. Indique a alternativa correta e justifique sua resposta.**
@@ -188,6 +223,9 @@ c) A asserção é verdadeira e a razão é verdadeira, mas a razão não explic
 
 d) A asserção é verdadeira e a razão é verdadeira, e a razão explica a asserção.
 
+alternativa (b)
+
+Polimorfismo é um conceito correto mas a razão que fala sobre sobrecarga de métodos não se aplica em JavaScript que não suporta sobrecarga da mesma maneira.
 ______
 
 # Questões dissertativas
