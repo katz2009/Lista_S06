@@ -311,4 +311,4 @@ class Produto {
 ```
 
 **Explicação**
-
+-  A herança em meu código funciona desse jeito pois uma classe pode herdar as propriedades e métodos de outra atraves do extends. No exemplo, a classe Livro herda de Produto puxando os atributos nome e preco e o método calcularDesconto() da classe Produto. Porém, a classe Livro pode modificar esse método para que ele tenha um comportamento diferente, igual eu fiz com o calculardesconto como foi solicitado. Isso é feito sobrescrevendo o método calcularDesconto() na classe Livro, o que seria um ajuste da lógica conforme foi pedido.
